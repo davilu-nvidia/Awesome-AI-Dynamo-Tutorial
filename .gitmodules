@@ -1,0 +1,3 @@
+[submodule "nvidia_dynamo_workshop"]
+	path = nvidia_dynamo_workshop
+	url = https://github.com/arunraman/dynamo-workshop
