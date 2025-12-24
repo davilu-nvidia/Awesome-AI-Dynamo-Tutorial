@@ -1,5 +1,8 @@
 # BaseWorkerHandler 类详解：SGLang 后端请求处理器基类
 
+## Implementation: 
+https://github.com/ai-dynamo/dynamo/blob/main/components/src/dynamo/sglang/request_handlers/handler_base.py
+
 ## 一、核心定位与设计目的
 
 `BaseWorkerHandler` 是 **SGLang 后端处理客户端推理请求的抽象基类（ABC）**，所有具体的 SGLang 请求处理器都需继承此类并实现抽象方法，其核心价值体现在三方面：
