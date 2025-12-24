@@ -1,4 +1,8 @@
 # Dynamo Frontend Core Analysis
+
+## Main Implementation: 
+https://github.com/ai-dynamo/dynamo/blob/main/components/src/dynamo/frontend/main.py
+
 ## Core Responsibilities
 This code serves as the startup entry point for the Dynamo Frontend. Its core functions include **configuration parsing + distributed runtime initialization + routing configuration + multi-protocol service startup**, acting as a key bridge connecting client requests to the backend LLM cluster.
 

@@ -1,4 +1,8 @@
-# Dynamo Frontend 核心解析
+# Dynamo Frontend 解析
+
+## 代码实现 
+https://github.com/ai-dynamo/dynamo/blob/main/components/src/dynamo/frontend/main.py
+
 ## 核心职责
 这段代码是 Dynamo 前端的启动入口，核心是「配置解析 + 分布式运行时初始化 + 路由配置 + 多协议服务启动」，是连接客户端请求和后端 LLM 集群的核心桥梁。
 
